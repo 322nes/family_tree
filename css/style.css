@@ -9,6 +9,10 @@ body {
   scrollbar-width: none;
 }
 
+body.active {
+  opacity: 0.7;
+}
+
 body::-webkit-scrollbar { 
 	display: none;
 }
@@ -33,6 +37,7 @@ body::-webkit-scrollbar {
   display: flex;
   align-items: center;
   justify-content: center;
+  pointer-events: none;
 }
 
 .navigation__wrench {
