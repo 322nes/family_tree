@@ -1,7 +1,5 @@
 const develop = document.querySelectorAll('.develop');
-// active = document.querySelector('.active'),
 const navigationWrench = document.querySelector('.navigation__wrench');
-// const developer = document.querySelector('developer');
 const did = document.querySelector('#d1');
 const didd = document.querySelector('#d2');
 const body = document.querySelector('body');
@@ -18,24 +16,28 @@ function navigationToggle() {
 };
 navigationToggle();
 
-// const navBtnOpen = document.querySelector('#navigation__link');
-// const navBtnOpenPlus = document.querySelector('#btnbefore');
-// const navBtnPlus = document.querySelector('.navigation__all-plus');
-// const navOverlay = document.querySelector('#overlay');
-// const margin = document.querySelector('.wrapper');
 
-// function navigationBtnAll() {
-//   function toggleNavAll() {
-//     navOverlay.classList.toggle('overlay-show');
-//     navBtnPlus.classList.toggle('navigation__all-plus--active');
-//     navBtnOpenPlus.classList.toggle('navigation__all-btnbefore--active');
-//     document.body.classList.toggle('noscroll');
-//     navBtnOpen.classList.toggle('marginr');
-//     margin.classList.toggle('marginr');
-//   };
-//   navBtnOpen.onclick = toggleNavAll;
-//   navBtnPlus.onclick = toggleNavAll;
-//   navOverlay.onclick = toggleNavAll;
-// };
+// function getSuperSeriesWinner(scores) {
+//   let canadaWin = 0;
+//   let ussrWin = 0;
 
-// navigationBtnAll();
+//   for (const game of scores) {
+//     const canadaScore = game[[0]];
+//     const ussrScore = game[[1]];
+
+//     if (canadaScore > ussrScore) {
+//       canadaWin += 1;
+//     } else if (ussrScore > canadaScore) {
+//       ussrWin += 1;
+//     }
+//   }
+
+//   if (canadaWin > ussrWin) {
+//     return 'canada';
+//   } if (ussrWin > canadaWin) {
+//     return 'ussr';
+//   }
+//   return null;
+// }
+
+// export default getSuperSeriesWinner;

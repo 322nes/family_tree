@@ -10,7 +10,7 @@ body {
 }
 
 body.active {
-  opacity: 0.7;
+  background-color: rgba(109, 102, 92, 0.7)
 }
 
 body::-webkit-scrollbar { 
